@@ -1,0 +1,244 @@
+@font-face{
+	font-family: 'UTMCharlotte';
+	src: url('font/UTM Charlotte.ttf');
+}
+@font-face{
+	font-family: 'UVNKieu';
+	src: url('font/UVN Kieu.ttf');
+}
+@font-face{
+	font-family: 'UTMAvo';
+	src: url('font/UTM-Avo.ttf');
+}
+body {padding-top: 70px;}
+img{width: 100%; height: auto;}
+.coccoc-alo-phone {width: 500px !important;}
+#bkasoft-alo-phoneIcon{left:0px;}
+#logo>img{width: auto !important;}
+h2{font-size: 60px;color:  #dcbd2f; text-align: center; text-transform: uppercase; font-family: 'UTMCharlotte'; margin-bottom: 0;}
+hr{margin-top: 0;width: 300px; border-color: #dcbd2f;}
+#logo>img{height: 100%;}
+.carousel-indicators{bottom: 0; margin-bottom: 0;}
+.navbar-fixed-top{background: #00377b;}
+.dropdown-menu{
+	right: 0;
+}
+#logo{height: 70px; padding: 5px 10px 5px 15px;}
+#navbar>ul.navbar-nav{margin-top: 20px;}
+#navbar>ul.navbar-nav>li>a{padding: 15px 10px; color:#fff; text-transform: uppercase;}
+#navbar>ul.navbar-nav>li>a::after{
+	display: none;
+	content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -7px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background: #00377b;box-shadow: inset 0 0px 0px rgba(0,0,0,0);text-shadow: 0 0 0 rgba(0,0,0,0);color: fff;border: 1px solid #fff}
+#navbar>ul.navbar-nav>li>a:focus, #navbar>ul.navbar-nav>li>a:hover, #navbar>ul.navbar-nav>li>a:link, #navbar>ul.navbar-nav>li>a:active, #navbar>ul.navbar-nav>li>a:visited{
+	background: #00377b;
+}
+#navbar>ul.navbar-nav>li.active>a::after{display: block;}
+#navbar>ul.navbar-nav>li>a:hover::after{display: block}
+.dropdown-menu>li>a{padding-left: 0px; padding-right: 0px; text-align: center;}
+.dropdown-menu>li>a:hover{background: #00377b; opacity: 0.9; color: #fff;}
+
+/*Đặc điểm*/
+#tongquan iframe{min-height: 370px;}
+#dacdiem>div{overflow: hidden;}
+#dacdiem>div>p{margin-top: 10px; text-align: justify;}
+#dacdiem>div>img{
+	border: 2px solid #dcbd2f;
+	margin: 0 auto;
+}
+#dacdiem>div>img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+/*Tổng quan*/
+.block{background: rgba(0,0,0,0.4); border: 2px solid #dcbd2f;padding-top: 15px;}
+.block>p{color: #fff; font-size: 15px; padding-top: 0px;padding-right: 20px;
+    padding-left: 20px; text-align: justify;}
+.block>p>i{margin-right: 15px;}
+.block>p>span{float: right;margin-right: 15px;color: #dcbd2f;}
+.block-x{transform: translateX(-50%) rotate(-90deg);
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    font-size: 25px;
+    color: #dcbd2f;
+    background-color: #00377b;
+    padding: 5px 10px;
+    font-weight: 900;
+    border: 2px solid #dcbd2f;
+    font-family: 'UTMCharlotte','UTM-Avo';
+}
+p.ct-ul{padding-bottom: 0px; padding-top: 0; margin-left: 30px;}
+#tongquan{padding-bottom: 20px; background: #00377b;}
+#ct-tongquan{margin-top: 10px;}
+/*Footer*/
+.owl-item{float: left;}
+#footer p{margin-bottom: 5px;font-size: 18px}
+#footer{ color: #fff; padding: 0; text-align: justify;padding-bottom: 20px;}
+.logo-footer>a>img{width: 100%; height: auto;margin-top:20px;}
+.icon-footer>a{
+	border-radius: 50%;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #00377b;
+    margin-right: 5px;
+}
+
+/*
+@-webkit-keyframes xemthem {
+    0%   {background-color: red;}
+    25%  {background-color: orange;}
+    50%  {background-color: red;}
+    100% {background-color: orange;}
+}
+
+ Standard syntax
+@keyframes xemthem {
+    0%   {background-color: red;}
+    25%  {background-color: orange;}
+    50%  {background-color: red;}
+    100% {background-color: orange;}
+} */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(3px, 1px) rotate(-1deg); }
+  60% { transform: translate(3px, 1px) rotate(-1deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(3px, 1px) rotate(-1deg); }
+  90% { transform: translate(3px, 1px) rotate(-1deg);  }
+  100% { transform: translate(3px, 1px) rotate(-1deg); }
+}
+/*Text - Slide*/
+.carousel-caption h1{font-family: 'UTMCharlotte';font-size: 28px;}
+.carousel-caption h2{font-family: 'UVNKieu';font-size: 50px; text-transform: none; color: #fff; margin-top:0;}
+#chinh-sach-chiet-khau{}
+#chinh-sach-chiet-khau>a{
+  position: absolute;
+  bottom: 20px;
+  right: 20%;
+  padding: 10px 40px;
+  background: red;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  animation-name: shake;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+/*Vi tri*/
+#vi-tri{
+  position: relative; 
+  margin: 0; 
+  padding-bottom: 20px;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+}
+#vi-tri img#ban-do{border: 2px solid #dcbd2f;}
+#vi-tri p{text-align: center; color: #fff;font-size: 20px; line-height: 33px;top:20%;padding-right: 20px; padding-left: 20px;}
+
+#pages{
+  position: relative; 
+  margin: 0; 
+  padding-bottom: 20px;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+}
+#pages img#ban-do{border: 2px solid #dcbd2f;}
+.noi-dung{margin-bottom: 50px;}
+.noi-dung>div>p{font-size: 16px; line-height: 20px; text-align: justify;margin-bottom: 5px; padding: 0; color: #fff;}
+
+.tab {overflow: hidden;}
+.tab button {
+    width: 100%;
+    text-align: left;
+    display: block;
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.tabcontent p{font-size: 14px !important; line-height: 20px !important;margin-top: 10px !important;}
+.tabcontent {display: none;border: 1px solid #ccc; }
+.tabcontent img{border-bottom: 1px solid #ccc;}
+.mat-bang p{ font-size: 14px !important; text-align: center;}
+
+/*Chinh-sách*/
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+table>caption{color: #dcbd2f; text-align: center; font-size: 18px; text-transform: uppercase;}
+.chinh-sach>table, .chinh-sach>table td, .chinh-sach>table th{
+  border: 1px solid #d9d9d9;
+  text-align: center;
+  padding: 5px 8px;
+  color: #d9d9d9;
+}
+.chinh-sach>table p{padding: 0px !important;text-align: justify !important; line-height: 20px !important;color: #d9d9d9 !important;}
+@media (max-width: 767px) {
+      #bkasoft-alo-phoneIcon{left: -50px;}
+    .owl-item{float: none; margin: 0 auto;}
+    #doitac{margin-bottom:20px;}
+  .carousel-caption h1{font-size: 25px;}
+  .carousel-caption h2{font-size: 30px;}
+  #chinh-sach-chiet-khau>a{font-size: 10px;padding: 1px 8px;bottom: 5px; right: 15%;border-radius: 3px;}
+	.lienhe{padding: 0;margin-top: 20px;}
+	.block>p{padding-right: 0px !important;}
+	#tongquan iframe{max-height: 315px !important;}
+	h2{font-size: 55px;}
+	#logo{height: 70px; padding: 10px 10px 10px 15px;}
+	#navbar>ul.navbar-nav>li>a::after{
+		border-color: transparent transparent transparent #fff;
+		left: 7px;
+		bottom: 18px;
+	}
+	#navbar>ul.navbar-nav{margin-top: 0;}
+	#navbar>ul.navbar-nav>li>a{padding-left: 15px;}
+	#navbar>ul.navbar-nav>li>a::after, #navbar>ul.navbar-nav>li>a:hover::after{display: none;}
+	.navbar-inverse .navbar-toggle{border-color:#fff; margin-top: 20px;}
+	.navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:visited{background: #00377b;}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {color: #fff;}
+  #vi-tri p{text-align: justify;line-height: 25px; padding-right: 20px; font-size: 15px;top:7%;}
+  #khung-noi-dung{margin-top: 20px;}
+}
+@media (min-width: 1200px){
+  #doitac{min-width: 1200px; padding: 15px;}
+  .carousel-caption{top: 50px;}
+}
